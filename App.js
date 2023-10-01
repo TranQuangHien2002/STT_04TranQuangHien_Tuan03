@@ -1,20 +1,14 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
 
-export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
-}
+import screen_FirstScreen from './screens/screen_FirstScreen';
+import screen_1_a from './screens/screen_1_a';
+import screen_1_b from './screens/screen_1_b';
+import screen_1_c from './screens/screen_1_c';
+import screen_1_d from './screens/screen_1_d';
+import screen_1_e from './screens/screen_1_e';
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+// export default screen_FirstScreen;
+// export default screen_1_a;
+// export default screen_1_b;
+// export default screen_1_c;
+// export default screen_1_d;
+export default screen_1_e;
